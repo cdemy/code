@@ -1,0 +1,12 @@
+void main() {
+  // Schritt A (vor Branching)
+  // Schritt B (vor Branching)
+  // WENN (Bedingung) DANN
+    // Schritt C (nur falls ja)
+    // Schritt D (nur falls ja)
+  // ANSONSTEN
+    // Schritt E (nur falls nein)
+    // Schritt F (nur falls nein)
+  // Schritt G (in jedem Fall)
+  // Schritt H (in jedem Fall)
+}
