@@ -1,0 +1,28 @@
+<html>
+
+<head>
+  <script>
+    function showMessageWithoutStdValue(message, repititions) {
+      for (var i = 0; i < repititions; i++) {
+        console.log(message);
+      }
+    }
+
+    function showMessageWithStdValue(message, repititions = 1) {
+      for (var i = 0; i < repititions; i++) {
+        console.log(message);
+      }
+    }
+
+    function main() {
+      showMessageWithoutStdValue('Hallo Welt', 1);
+      showMessageWithoutStdValue('Hallo Welt'); // repitions = null
+      showMessageWithoutStdValue(3, 'Hallo Welt'); // message = 3, repititions = 'Hallo Welt'
+      showMessageWithStdValue('Hallo Welt', 1);
+      showMessageWithStdValue('Hallo Welt'); // repititions = 1
+      showMessageWithStdValue(3, 'Hallo Welt'); // message = 3, repititions = 1
+    }
+  </script>
+</head>
+
+</html>
