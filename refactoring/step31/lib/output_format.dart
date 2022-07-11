@@ -1,0 +1,4 @@
+enum OutputFormat {
+  HTML,
+  Text,
+}

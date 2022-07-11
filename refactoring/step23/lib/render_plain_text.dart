@@ -2,8 +2,6 @@ import 'package:intl/intl.dart';
 import 'package:refactoring/play.dart';
 import 'package:refactoring/render_values.dart';
 import 'dart:math' as Math;
-
-import 'invoice.dart';
 import 'performance.dart';
 
 String renderPlainText(RenderValues renderValues, Map<String, Play> plays) {
