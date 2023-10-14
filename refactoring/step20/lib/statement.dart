@@ -57,7 +57,6 @@ String renderPlainText(Invoice invoice, Map<String, Play> plays) {
     return result;
   }
 
-  const statementData = {};
   var result = 'Statement for ${invoice.customer}\n';
   for (final perf in invoice.performances) {
     // print line for this order

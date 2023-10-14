@@ -1,5 +1,5 @@
-// @dart=2.9
+// Nicht mehr lauffähig, siehe Compilefehler
 void main() {
-  String a;
-  print('Wert: $a');
+  // String a;
+  // print('Wert: $a');
 }
