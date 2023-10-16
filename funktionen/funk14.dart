@@ -1,8 +1,4 @@
 void showMessagePositional(String message, [int repititions = 1]) {
-  if (repititions == null) {
-    print(message);
-    return;
-  }
   for (var i = 0; i < repititions; i++) {
     print(message);
   }
